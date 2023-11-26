@@ -1,5 +1,6 @@
 import allure
 from selene import browser, by, have
+from allure import attachment_type
 
 
 class AllureRepository:
@@ -13,6 +14,7 @@ class AllureRepository:
         browser.element('.QueryBuilder-InputWrapper #query-builder-test').type(
             "eroshenkoam/allure-example").press_enter()
         browser.element(by.link_text("eroshenkoam/allure-example")).click()
+        allure.attach("github.com/eroshenkoam/allure-example", name="Сайт", attachment_type=attachment_type.TEXT)
         return self
 
     @allure.step("Открываем страницу Issues")
