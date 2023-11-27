@@ -4,14 +4,14 @@
     "project": "some project",
     "environment": "DEV",
     "comment": "some comment @fedorovedorov",
-    "reportLink": "https://jenkins.autotests.cloud/job/008-saimonfrost-python08-12-hw/6/allure/",
+    "reportLink": "https://jenkins.autotests.cloud/job/013-saiimonfrost-guru_08_jenkins/allure",
     "language": "en",
-    "allureFolder": "",
+    "allureFolder": "allure-report",
     "enableChart": true
   },
   "telegram": {
-    "token": "",
-    "chat": "",
+    "token": "6743133562:AAG9Yao2TIkiwDRvcv7_HFzN-7YrPMAvQ7c",
+    "chat": "-1002081127201",
     "replyTo": ""
   }
 }

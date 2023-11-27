@@ -1,17 +1,20 @@
 {
-  "base": {
-    "logo": "",
-    "project": "",
-    "environment": "",
-    "comment": "",
-    "reportLink": "",
-    "language": "ru",
-    "allureFolder": "",
-    "enableChart": false
+  reportName: "Allure Report",
+  testRuns: [ ],
+  statistic: {
+    failed: 0,
+    broken: 0,
+    skipped: 0,
+    passed: 1,
+    unknown: 0,
+    total: 1
   },
-  "telegram": {
-    "token": "",
-    "chat": "",
-    "replyTo": ""
+  time: {
+    start: 1701111876697,
+    stop: 1701111882449,
+    duration: 5752,
+    minDuration: 5752,
+    maxDuration: 5752,
+    sumDuration: 5752
   }
 }
