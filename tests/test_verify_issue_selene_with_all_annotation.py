@@ -19,7 +19,7 @@ from work_with_allure_reports.model.pages.AllureRepositoryPage import AllureRepo
 @allure.issue("/work_with_allure_reports")
 @allure.epic("Регресс")
 @allure.parent_suite("Создание задачи в репозитории")
-def test_verify_issue(window_config):
+def test_verify_issue(browser_setup):
     allure_repository = AllureRepository()
 
     allure_repository.open()
